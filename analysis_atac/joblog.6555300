@@ -1,0 +1,10 @@
+P6a
+generating P6a fragment file
+Traceback (most recent call last):
+  File "/u/project/zipursky/f7xiesnm/v1-bb/v1/myvisctx/analysis_atac/./pp05-v2.run_snapatac2_alldata.py", line 36, in <module>
+    data = snap.pp.import_data(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/u/home/f/f7xiesnm/.conda/envs/snapatac2/lib/python3.12/site-packages/snapatac2/preprocessing/_basic.py", line 334, in import_data
+    adata = AnnData() if file is None else internal.AnnData(filename=file, backend=backend)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: H5Fcreate(): unable to create file: unable to open file: name = '/u/home/f/f7xiesnm/project-zipursky/v1-bb/v1/data/v1_multiome/atac_fragments/raw/frag_snap/ATAC_P6a.h5ad', errno = 2, error message = 'No such file or directory', flags = 13, o_flags = 242

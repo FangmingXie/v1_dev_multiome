@@ -1,0 +1,6 @@
+P21a
+generating P21a fragment file
+/u/project/zipursky/f7xiesnm/v1-bb/v1/myvisctx/analysis_atac/./pp05-v3.run_snapatac2_first_step.py:36: DeprecationWarning: import_data is deprecated and will be removed in v2.9.0. Use import_fragments instead.
+  data = snap.pp.import_data(
+P21b
+generating P21b fragment file
